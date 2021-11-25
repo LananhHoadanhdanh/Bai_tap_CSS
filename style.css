@@ -1,0 +1,121 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Reggae One', cursive;
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: #ffbdca !important;
+}
+
+.navbar li a:hover {
+    color: #cb004d !important;
+}
+
+.carousel-item {
+    color: red !important;
+}
+
+.carousel-control-prev {
+    width: 5%;
+}
+
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-caption {
+    text-shadow: 2px 2px 15px #000000;
+}
+
+.example {
+    position: absolute;
+    top: 40%;
+}
+
+.welcome hr {
+    border-top: 2px solid rgba(62, 44, 100, 0.6);
+    width: 95%;
+    margin-bottom: 2rem;
+}
+
+.fas {
+    font-size: 40px;
+    margin: 2rem;
+}
+
+.fun {
+    margin-bottom: 20px;
+}
+
+.social a {
+    font-size: 3em;
+    padding: 1em;
+}
+
+.fa-google-plus-g {
+    color: #ff0000;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+.fa-facebook {
+    color: mediumblue;
+}
+.fa-youtube {
+    color: #bb0000;
+}
+footer {
+    background-color: #f69eb6;
+    padding-top: 1px;
+}
+hr.light {
+    border-top: 1px solid #592727;
+    width: 75%;
+}
+.light-100 {
+    border-top: 1px solid #592727;
+    width: 92%;
+}
+@media (max-width: 992px) {
+    .example {
+        top: 35%;
+    }
+
+    .example h1 {
+        font-size: 35px;
+    }
+
+    .example h3 {
+        font-size: 25px;
+    }
+
+    .example .btn {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .example {
+        top: 30%;
+    }
+
+    .example h1 {
+        font-size: 30px;
+    }
+
+    .example h3 {
+        font-size: 20px;
+    }
+
+    .example .btn {
+        font-size: 15px;
+    }
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
